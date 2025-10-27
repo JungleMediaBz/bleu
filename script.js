@@ -151,6 +151,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Link the main "View Menu" button on the homepage hero section
+  document.querySelector('.hero .btn-discover')?.addEventListener('click', () => {
+    window.location.href = 'menu.html';
+  });
+
   document.querySelector('.btn-read-more')?.addEventListener('click', () => {
     window.location.href = 'about.html';
   });
